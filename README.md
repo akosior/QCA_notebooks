@@ -8,7 +8,7 @@ python3 -m venv qiskit_env
 
 2. Source this environment
 
-source qiskit_env/bin/activat
+source qiskit_env/bin/activate
 
 3. install qiskit in the environment
 
@@ -16,6 +16,7 @@ pip3 install qiskit
 pip3 install qiskit[visualization]
 pip3 install qiskit-aer
 pip3 install qiskit-ibm-provider
+pip install qiskit-ibm-runtime
 pip3 install setuptools
 
 ## Necessary changes in code 
@@ -31,6 +32,13 @@ https://docs.quantum.ibm.com/migration-guides/qiskit-1.0-features#execute
 In Qiskit 1.0 there are different methods of adding gates described here:
 
 https://docs.quantum.ibm.com/migration-guides/qiskit-1.0-features#quantumcircuit-gates
+
+
+### Chapter 6
+
+A lot of fixes needed for Dynamic Circle Scheduling in qiskit 1.0+:
+
+https://docs.quantum.ibm.com/api/qiskit-ibm-runtime/transpiler-passes-scheduling#scheduling-old-format-c_if-conditioned-gates
 
 ### Other
 To use 'latex' in circuit.draw you need to install poppler-utils pack
