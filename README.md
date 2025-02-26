@@ -40,6 +40,10 @@ A lot of fixes needed for Dynamic Circle Scheduling in qiskit 1.0+:
 
 https://docs.quantum.ibm.com/api/qiskit-ibm-runtime/transpiler-passes-scheduling#scheduling-old-format-c_if-conditioned-gates
 
+### Chapter 7
+
+The package qiskit_ibm_provider is being deprecated. Please see https://docs.quantum.ibm.com/api/migration-guides/qiskit-runtime to get instructions on how to migrate to qiskit-ibm-runtime (https://github.com/Qiskit/qiskit-ibm-runtime).
+
 ### Other
 To use 'latex' in circuit.draw you need to install poppler-utils pack
 
